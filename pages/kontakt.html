@@ -12,5 +12,57 @@
         <li><a href="presentation.html">Presentation</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
+    <h3>Observera att detta är ett påhittat formulär<br/>
+    	Här gäller det frukt
+    </h3>
+    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+    	<fieldset>
+    		<legend>Lite frågor</legend>
+    	<h4>Vilken frukt tycker du bäst om?
+    	</h4>
+    	<input type="radio"name="group1" value="apelsin"/>Apelsin
+    	<input type="radio"name="group1" value="banan"/>Banan
+    	<input type="radio"name="group1" value="ananas"/>Ananas
+    	<input type="radio"name="group1" value="äpple"/>Äpple
+    	<h4>Välj fyra frukter du helst skulle använda i en fruktsallad?
+    	</h4>
+    	<input type="checkbox"name="g1" value="apelsin"/>Apelsin
+    	<input type="checkbox"name="g1" value="banan"/>Banan
+    	<input type="checkbox"name="g1" value="ananas"/>Ananas
+    	<input type="checkbox"name="g1" value="äpple"/>Äpple
+    	<input type="checkbox"name="g1" value="persimon"/>Persimon
+    	<input type="checkbox"name="g1" value="päron"/>Päron
+    	<input type="checkbox"name="g1" value="mandarin"/>Mandarin
+    	<input type="checkbox"name="g1" value="persika"/>Persika
+    	<h4>Har du ett bra recept på fruktsallad, skriv det här
+    	</h4>
+    	<textarea rows="7" cols="40"></textarea>
+    	<h4>Vilket tillbehör väljer du helst till din fruksallad?
+    	<h4/>
+    	<select name=accessories>
+    		<option name="ice">Glass</option>
+    		<option name="cream">Grädde</option>
+    		<option name="vanilla">Vaniljsås</option>
+    		<option name="nuts">Nötter</option>
+    		<option name="raisins">Russin</option>
+		</select>
+		<h3>Vill du ha recept på andra fruktsallader, fyll i kontaktuppgifter nedan!
+		</h3>
+		<fieldset>
+    		<legend>Kontaktuppgifter</legend>
+    		<label for="name">Namn:</label>
+		<input type="text" id="name" name="name"/>
+		<label for="phonenumber">Telefonnummer:</label>
+    	<input type="text" id="phonenumber" name="phonenumber"/>
+    	<label for="email">E-post</label>
+    	<input type="text" id="email" name="email"/>
+    	<h4>Hur vill du helst bli kontaktad?
+    	</h4>
+    	<input type="radio"name="group2" value="mail"/>E-post
+    	<input type="radio"name="group2" value="hpone"/>Telefon
+    	</fieldset>
+    	</fieldset>
+		<input type="submit" value="Skicka"/>
+    </form>
 </body>
 </html>
