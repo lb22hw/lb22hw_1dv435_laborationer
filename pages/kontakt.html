@@ -12,42 +12,42 @@
         <li><a href="presentation.html">Presentation</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
-    <h3>Observera att detta är ett påhittat formulär<br/>
-    	Här gäller det frukt
+    <h3>Observera att detta är ett påhittat formulär
+    </h3>
+    <h3>Här gäller det frukt
     </h3>
     <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
     	<fieldset>
     		<legend>Lite frågor</legend>
     	<h4>Vilken frukt tycker du bäst om?
     	</h4>
-    	<input type="radio"name="group1" value="apelsin"/>Apelsin
-    	<input type="radio"name="group1" value="banan"/>Banan
-    	<input type="radio"name="group1" value="ananas"/>Ananas
-    	<input type="radio"name="group1" value="äpple"/>Äpple
+    	<input type="radio" name="group1" value="apelsin"/>Apelsin
+    	<input type="radio" name="group1" value="banan"/>Banan
+    	<input type="radio" name="group1" value="ananas"/>Ananas
+    	<input type="radio" name="group1" value="äpple"/>Äpple
     	<h4>Välj fyra frukter du helst skulle använda i en fruktsallad?
     	</h4>
-    	<input type="checkbox"name="g1" value="apelsin"/>Apelsin
-    	<input type="checkbox"name="g1" value="banan"/>Banan
-    	<input type="checkbox"name="g1" value="ananas"/>Ananas
-    	<input type="checkbox"name="g1" value="äpple"/>Äpple
-    	<input type="checkbox"name="g1" value="persimon"/>Persimon
-    	<input type="checkbox"name="g1" value="päron"/>Päron
-    	<input type="checkbox"name="g1" value="mandarin"/>Mandarin
-    	<input type="checkbox"name="g1" value="persika"/>Persika
+    	<input type="checkbox" name="apelsin" value="apelsin"/>Apelsin
+    	<input type="checkbox" name="banan" value="banan"/>Banan
+    	<input type="checkbox" name="anans" value="ananas"/>Ananas
+    	<input type="checkbox" name="apple" value="äpple"/>Äpple
+    	<input type="checkbox" name="persimon" value="persimon"/>Persimon
+    	<input type="checkbox" name="pear" value="päron"/>Päron
+    	<input type="checkbox" name="mandarin" value="mandarin"/>Mandarin
+    	<input type="checkbox" name="persika" value="persika"/>Persika
     	<h4>Har du ett bra recept på fruktsallad, skriv det här
     	</h4>
-    	<textarea rows="7" cols="40"></textarea>
+    	<textarea rows="7" cols="40" name="recept"></textarea>
     	<h4>Vilket tillbehör väljer du helst till din fruksallad?
-    	<h4/>
-    	<select name=accessories>
-    		<option name="ice">Glass</option>
-    		<option name="cream">Grädde</option>
-    		<option name="vanilla">Vaniljsås</option>
-    		<option name="nuts">Nötter</option>
-    		<option name="raisins">Russin</option>
+    	<select name="accessories">
+    		<option id="ice">Glass</option>
+    		<option id="cream">Grädde</option>
+    		<option id="vanilla">Vaniljsås</option>
+    		<option id="nuts">Nötter</option>
+    		<option id="raisins">Russin</option>
 		</select>
-		<h3>Vill du ha recept på andra fruktsallader, fyll i kontaktuppgifter nedan!
-		</h3>
+		Vill du ha recept på andra fruktsallader, fyll i kontaktuppgifter nedan!
+		</h4>
 		<fieldset>
     		<legend>Kontaktuppgifter</legend>
     		<label for="name">Namn:</label>
@@ -58,8 +58,8 @@
     	<input type="text" id="email" name="email"/>
     	<h4>Hur vill du helst bli kontaktad?
     	</h4>
-    	<input type="radio"name="group2" value="mail"/>E-post
-    	<input type="radio"name="group2" value="hpone"/>Telefon
+    	<input type="radio" name="group2" value="mail"/>E-post
+    	<input type="radio" name="group2" value="hpone"/>Telefon
     	</fieldset>
     	</fieldset>
 		<input type="submit" value="Skicka"/>
