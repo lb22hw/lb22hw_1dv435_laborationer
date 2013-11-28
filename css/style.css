@@ -83,15 +83,13 @@ time, mark, audio, video {
 		display: block;
 		padding: 15px;
 		background-color:#DEF258 ;
-		color:#89B12B; 
+		color:#000; 
 		text-decoration: none;
 
 	}
 	#nav li a:hover {
-		background-color: #89B12B;
-		color:#DEF258; 
+		background-color: #89B12B; 
 	}
 	#nav li a.active {
-	background-color: #F5EE6D;
-		color:#89B12B; 	
+	background-color: #F5EE6D; 	
 	}
