@@ -28,31 +28,39 @@ time, mark, audio, video {
 			max-width: 1200px; 
 			overflow: auto;
 			margin: 0 auto;
-			background-color: ;
+			background-color:#F4FACC ;
 	}
 	#header {
-		background-color: ;
+		background-color:#DEF258 ;
 		max-width: 900px;
 		margin: 0 auto;
 	}
 	#nav {
-		background-color: ;
+		background-color:#A8B360 ;
 		width: 300px;
 		float:left;
 		margin-left: 150px;
 	}
 	#content{
 			width: 600px;
-			background-color: ;
+			background-color:#F6FCCD ;
 			float: left;
 	}	
 	#footer {
 		max-width: 900px;
-		background-color: ;
+		background-color:#868F4B ;
 		margin: 0 auto;
 		clear: both;
 	}
 	#table td {
-		border: thin solid;
+		border: thin solid; color:#525E36;
+		background-color:#EDFA97
 	}
+	/* Färger 	container #F4FACC 
+				header #DEF258 
+				nav #A8B360
+				content #F6FCCD
+				footer #868F4B
+				/*table td #EDFA97 */
+				 
 
