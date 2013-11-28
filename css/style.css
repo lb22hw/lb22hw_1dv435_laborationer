@@ -37,7 +37,7 @@ time, mark, audio, video {
 	}
 	#nav {
 		background-color:#A8B360 ;
-		width: 300px;
+		width: 240px;
 		float:left;
 		margin-left: 150px;
 	}
@@ -54,7 +54,7 @@ time, mark, audio, video {
 	}
 	#table td {
 		border: thin solid; color:#525E36;
-		background-color:#EDFA97
+		background-color:#EDFA97;
 	}
 	/* Färger 	container #F4FACC 
 				header #DEF258 
@@ -62,5 +62,36 @@ time, mark, audio, video {
 				content #F6FCCD
 				footer #868F4B
 				/*table td #EDFA97 */
-				 
 
+	/*menyn*/
+	#nav ul {
+		border: 1px solid #89B12B;
+		border-bottom: none;
+		width: 200px;
+		margin-top : 20px;
+		margin-bottom: 20px;
+		margin-right: 20px; 
+		margin-left: 20px; 
+		
+	}
+	#nav li {
+		list-style: none;
+		border-bottom: 1px solid #89B12B;
+
+	}
+	#nav li a {
+		display: block;
+		padding: 15px;
+		background-color:#DEF258 ;
+		color:#89B12B; 
+		text-decoration: none;
+
+	}
+	#nav li a:hover {
+		background-color: #89B12B;
+		color:#DEF258; 
+	}
+	#nav li a.active {
+	background-color: #F5EE6D;
+		color:#89B12B; 	
+	}
