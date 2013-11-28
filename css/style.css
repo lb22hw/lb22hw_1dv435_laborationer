@@ -22,3 +22,37 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+/*Layout*/	
+	#container {	
+			max-width: 1200px; 
+			overflow: auto;
+			margin: 0 auto;
+			background-color: ;
+	}
+	#header {
+		background-color: ;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	#nav {
+		background-color: ;
+		width: 300px;
+		float:left;
+		margin-left: 150px;
+	}
+	#content{
+			width: 600px;
+			background-color: ;
+			float: left;
+	}	
+	#footer {
+		max-width: 900px;
+		background-color: ;
+		margin: 0 auto;
+		clear: both;
+	}
+	#table td {
+		border: thin solid;
+	}
+
