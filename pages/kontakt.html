@@ -3,15 +3,23 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Kontakt</title>
+     <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
+    <div id="container">
+    <div id="header">
+    </div>
+    <div id="content">
 	<h1>Kontakt</h1>
- 	<ul>
-        <li><a href="../index.html">Startsida</a></li>
-        <li><a href="laborationer.html">Laborationer</a></li>
-        <li><a href="presentation.html">Presentation</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-    </ul>
+    <div id="nav">
+     	<ul>
+            <li><a href="../index.html">Startsida</a></li>
+            <li><a href="laborationer.html">Laborationer</a></li>
+            <li><a href="presentation.html">Presentation</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+    <div id="form"   
     <h3>Observera att detta är ett påhittat formulär
     </h3>
     <h3>Här gäller det frukt
@@ -21,20 +29,25 @@
     		<legend>Lite frågor</legend>
     	<h4>Vilken frukt tycker du bäst om?
     	</h4>
-    	<input type="radio" name="group1" value="apelsin"/>Apelsin
-    	<input type="radio" name="group1" value="banan"/>Banan
-    	<input type="radio" name="group1" value="ananas"/>Ananas
-    	<input type="radio" name="group1" value="äpple"/>Äpple
+        <div id="radiobuttons">
+        	<input type="radio" name="group1" value="apelsin"/>Apelsin
+        	<input type="radio" name="group1" value="banan"/>Banan
+        	<input type="radio" name="group1" value="ananas"/>Ananas
+        	<input type="radio" name="group1" value="äpple"/>Äpple
+        </div>
+        
     	<h4>Välj fyra frukter du helst skulle använda i en fruktsallad?
     	</h4>
-    	<input type="checkbox" name="apelsin" value="apelsin"/>Apelsin
-    	<input type="checkbox" name="banan" value="banan"/>Banan
-    	<input type="checkbox" name="anans" value="ananas"/>Ananas
-    	<input type="checkbox" name="apple" value="äpple"/>Äpple
-    	<input type="checkbox" name="persimon" value="persimon"/>Persimon
-    	<input type="checkbox" name="pear" value="päron"/>Päron
-    	<input type="checkbox" name="mandarin" value="mandarin"/>Mandarin
-    	<input type="checkbox" name="persika" value="persika"/>Persika
+        <div id="checkbox">
+        	<input type="checkbox" name="apelsin" value="apelsin"/>Apelsin
+        	<input type="checkbox" name="banan" value="banan"/>Banan
+        	<input type="checkbox" name="anans" value="ananas"/>Ananas
+        	<input type="checkbox" name="apple" value="äpple"/>Äpple
+        	<input type="checkbox" name="persimon" value="persimon"/>Persimon
+        	<input type="checkbox" name="pear" value="päron"/>Päron
+        	<input type="checkbox" name="mandarin" value="mandarin"/>Mandarin
+        	<input type="checkbox" name="persika" value="persika"/>Persika
+        </div>
     	<h4>Har du ett bra recept på fruktsallad, skriv det här
     	</h4>
     	<textarea rows="7" cols="40" name="recept"></textarea>
@@ -64,5 +77,8 @@
     	</fieldset>
 		<input type="submit" value="Skicka"/>
     </form>
+    </div >
+    </div>
+    </div>
 </body>
 </html>
