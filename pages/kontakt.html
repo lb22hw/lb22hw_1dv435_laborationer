@@ -61,13 +61,15 @@
         </div>
     	<h4>Vilket tillbehör väljer du helst till din fruksallad?
         </h4>
-    	<select name="accessories">
-    		<option id="ice">Glass</option>
-    		<option id="cream">Grädde</option>
-    		<option id="vanilla">Vaniljsås</option>
-    		<option id="nuts">Nötter</option>
-    		<option id="raisins">Russin</option>
-		</select>
+        <div id="accessoires">
+        	<select name="accessories">
+        		<option id="ice">Glass</option>
+        		<option id="cream">Grädde</option>
+        		<option id="vanilla">Vaniljsås</option>
+        		<option id="nuts">Nötter</option>
+        		<option id="raisins">Russin</option>
+    		</select>
+        </div>
 		<h4>Vill du ha recept på andra fruktsallader, fyll i kontaktuppgifter nedan!
 		</h4>
 		<fieldset>
@@ -75,7 +77,7 @@
     		<label for="name">Namn:</label>
 		<input type="text" id="name" name="name"/><br/>
 		<label for="phonenumber">Telefonnummer:</label>
-    	<input type="text" id="phonenumber" name="phonenumber"/><br/>
+    	<input type="text" id="phonenumber" name="phonenumber"/><br/>          <!--Har gjort lite fulkod här med <br/> men jag kom inte på något annat sätt,har försökt-->
     	<label for="email">E-post:</label>
     	<input type="text" id="email" name="email"/>
     	<div id="kontakt">

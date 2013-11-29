@@ -228,6 +228,9 @@ body{
 	#blogg h4{
 		margin-top: 20px
 	}
+	#accessoires{
+		margin-bottom: 20px;
+	}
 
 	.right{
 		float:right;
