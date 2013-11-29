@@ -41,16 +41,47 @@ time, mark, audio, video {
 	#header img{
 	} 
 	#header h1{
+		float:right;
+		margin-top: 130px;margin-right: 60px;
 
 	}
 	#nav {
 		background-color:#F2FABF;
-		width: 240px;
+		width: 300px;
 		float:left;
 		margin-left: 150px;
 	}
+	/*menyn*/
+	#nav ul {
+		border: 1px solid #89B12B;
+		border-bottom: none;
+		width: 240px;
+		margin-top : 20px;
+		margin-bottom: 20px;
+		margin-right: 20px;  
+	}
+	#nav li {
+		list-style: none;
+		border-bottom: 1px solid #89B12B;
+
+	}
+	#nav li a {
+		display: block;
+		padding: 10px;
+		background-color:#DEF258 ;
+		color:#000; 
+		text-decoration: none;
+
+	}
+	#nav li a:hover {
+		background-color: #89B12B; 
+	}
+	#nav li a.active {
+		background-color: #F5EE6D; 
+	}
+	/*slut meny*/	
 	#content{
-			width: 660px;
+			width: 600px;
 			background-color:#F2FABF;
 			float: left;
 	}	
@@ -74,34 +105,7 @@ time, mark, audio, video {
 				footer #868F4B
 				/*table td #EDFA97 */
 
-	/*menyn*/
-	#nav ul {
-		border: 1px solid #89B12B;
-		border-bottom: none;
-		width: 200px;
-		margin-top : 20px;
-		margin-bottom: 20px;
-		margin-right: 20px;  
-	}
-	#nav li {
-		list-style: none;
-		border-bottom: 1px solid #89B12B;
-
-	}
-	#nav li a {
-		display: block;
-		padding: 10px;
-		background-color:#DEF258 ;
-		color:#000; 
-		text-decoration: none;
-
-	}
-	#nav li a:hover {
-		background-color: #89B12B; 
-	}
-	#nav li a.active {
-		background-color: #F5EE6D; 	
-	}
+	
 	#labli ul{
 		width: 200px;
 		margin-left: 30px;
