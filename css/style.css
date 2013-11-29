@@ -26,12 +26,21 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
+body{
+	
+
+}
 		
 	#container {	
+			background-image: url("pics/sign2.svg");
+			background-repeat: no-repeat;
+			background-size: 70%;
+			background-position: 100px center;
 			max-width: 1200px; 
 			overflow: auto;
 			margin: 0 auto;
-			background-color:#F4FACC ;
+			background-color:#F4FACC;
 			font-family: 'Cutive Mono', serif;
 	}
 	#container h2,h2,h3,h4{
@@ -58,7 +67,7 @@ time, mark, audio, video {
 
 	}
 	#nav {
-		background-color:#F2FABF;
+		/*background-color:#F2FABF;*/
 		width: 300px;
 		float:left;
 		margin-left: 150px;
@@ -98,7 +107,7 @@ time, mark, audio, video {
 	/*slut meny*/	
 	#content{
 		width: 600px;
-		background-color:#F2FABF;
+		/*background-color:#F2FABF;*/
 		float: left;
 		margin-bottom: 30px;
 		margin-right: 20px;
@@ -148,9 +157,9 @@ time, mark, audio, video {
 	}
 	#footer {
 		max-width: 900px;
-		background-color:#DEF258;
 		margin: 0 auto;
 		clear: both;
+		border-top: 2px solid  #89B12B
 	}
 	#table td {
 		border: thin solid; color:#525E36;
@@ -223,4 +232,5 @@ time, mark, audio, video {
 	.right{
 		float:right;
 		margin: 15px;
+		border:3px solid #748942;
 	}
