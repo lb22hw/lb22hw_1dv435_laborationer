@@ -25,7 +25,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/*Layout*/	
 
 		
 	#container {	
@@ -102,6 +101,7 @@ time, mark, audio, video {
 		background-color:#F2FABF;
 		float: left;
 		margin-bottom: 30px;
+		margin-right: 20px;
 	}
 	#content h1,h2,h3,h4{
 		font-style: bold;
@@ -130,7 +130,7 @@ time, mark, audio, video {
 		padding-top: 10px;
 	}
 	#content dt{
-		font-family: 'Cutive Mono', serif;
+		font-family: 'Cutive Mono', serif;          /*byter inte font, varför?*/
 		font-weight: bold;
 		margin-top: 5px;
 	}
@@ -151,8 +151,6 @@ time, mark, audio, video {
 		background-color:#DEF258;
 		margin: 0 auto;
 		clear: both;
-	}
-	#table {
 	}
 	#table td {
 		border: thin solid; color:#525E36;
@@ -218,12 +216,11 @@ time, mark, audio, video {
 	#kontakt{
 		margin-top: 20px;
 	}
-	/*#name{
-		margin-right: 300px;
+	#blogg h4{
+		margin-top: 20px
 	}
-	#phonenumber{
-		margin-right: 300px;
+
+	.right{
+		float:right;
+		margin: 15px;
 	}
-	#email{
-		margin-bottom: 20px;	
-	}*/
