@@ -1,3 +1,4 @@
+<link href='http://fonts.googleapis.com/css?family=Cutive+Mono&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -34,10 +35,13 @@ time, mark, audio, video {
 		background-color:#DEF258 ;
 		max-width: 900px;
 		margin: 0 auto;
+		font-family: 'Cutive Mono', serif;
+		text-shadow: 4px 4px 4px #aaa;
 	}
 	#header img{
-		margin-top:30px;
-		margin-left:30px;
+	} 
+	#header h1{
+
 	}
 	#nav {
 		background-color:#F2FABF;
