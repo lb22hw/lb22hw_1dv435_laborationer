@@ -206,6 +206,11 @@ body{
 	margin-top: 20px;
 	margin-right: 40px;
 	float: right;
+	background-image: url(pics/brev.png); 
+	background-repeat: no-repeat;
+	background-position: top left;
+	text-indent: 30px; 
+
 	}
 	#foto{
 	
