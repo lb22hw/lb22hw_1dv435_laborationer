@@ -139,7 +139,7 @@ body{
 		padding-top: 10px;
 	}
 	#content dt{
-		font-family:'Fresca', sans-serif;         /*byter inte font, varför?*/
+		font-family:'Fresca', sans-serif;         
 		font-weight: bold;
 		margin-top: 5px;
 	}
@@ -241,8 +241,5 @@ body{
 		margin: 15px;
 		border:3px solid #748942;
 	}
-	@media print
-		#nav {
-			display: none
-		}
+	
 	
