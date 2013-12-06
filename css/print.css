@@ -1,0 +1,6 @@
+#nav {
+ 	display: none;
+}
+#content a:after{
+	" (" attr(href) ") " ;
+}

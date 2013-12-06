@@ -139,7 +139,7 @@ body{
 		padding-top: 10px;
 	}
 	#content dt{
-		font-family: 'Cutive Mono', serif;          /*byter inte font, varför?*/
+		font-family:'Fresca', sans-serif;         /*byter inte font, varför?*/
 		font-weight: bold;
 		margin-top: 5px;
 	}
@@ -211,8 +211,7 @@ body{
 	background-position: top left;
 	text-indent: 30px; 
 
-	}
-	#foto{
+	
 	
 	}
 	#radiobuttons {
@@ -242,3 +241,8 @@ body{
 		margin: 15px;
 		border:3px solid #748942;
 	}
+	@media print
+		#nav {
+			display: none
+		}
+	
