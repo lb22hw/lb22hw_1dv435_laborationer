@@ -1,6 +1,18 @@
 #nav {
  	display: none;
 }
-#content a:after{
-	" (" attr(href) ") " ;
+#content a[href]:after{
+	content:" (" attr(href) ") ";		
+}
+
+#footer, #header, #content {
+	width: 500px;
+	float: none;
+	margin: auto;
+}
+/*#leftside {
+	background-size:100%;
+}*/
+#foto {
+	margin:auto;
 }
