@@ -89,6 +89,8 @@ time, mark, audio, video {
 		background-color:#DEF258 ;
 		color:#000; 
 		text-decoration: none;
+		background-image: url(pics/sprite.png);
+		background-repeat: no-repeat;
 
 	}
 	#nav li a:hover {
@@ -97,6 +99,32 @@ time, mark, audio, video {
 	#nav li a.active {
 		background-color: #F5EE6D; 
 	}
+	#nav li a.meny1{
+		background-position:170px -43px; 
+		}
+	#nav li a.meny1:hover{
+		background-position: 170px 5px; 
+	}
+	#nav li a.meny2{
+		background-position: 170px -139px;
+	}
+	#nav li a.meny2:hover{
+		background-position: 170px -91px;
+	}
+	#nav li a.meny3{
+		background-position: 170px -235px;
+	}
+	#nav li a.meny3:hover{
+		background-position: 170px -187px;
+	}
+	#nav li a.meny4{
+		background-position: 170px -331px;
+	}
+	#nav li a.meny4:hover{
+		background-position:170px -283px;
+	}
+	#nav li a.meny5{
+		background-position:300px 0;
 	/*slut meny*/	
 	#content{
 		width: 600px;

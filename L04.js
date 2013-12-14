@@ -38,7 +38,6 @@ function test3(tal1, tal2) {
 	
 }
 
-test3 (5, 4);
 /*
 * TEST 4
 */
@@ -50,7 +49,6 @@ function test4(tal) {
 	return x;
 	// Din kod skrivs här
 }
-test4(3.7);
 
 /*
 * TEST 5
@@ -63,7 +61,6 @@ function test5(text) {
 	// Din kod skrivs här
 	
 }
-test5("kajsaklara");
 
 
 /*
@@ -78,7 +75,6 @@ function test6(text) {
 	
 }
 
-test6("kajsaklara");
 /*
 * TEST 7
 */
@@ -90,12 +86,11 @@ function test7(firstname, surname) {
 	
 	var lastname = surname;
 	var name = firstname;
-	var wholename = lastname + "," + "" + name;
+	var wholename = lastname + ", " + name;
 	return wholename;// Din kod skrivs här
 	
 }
 
-test7("Greta", "Karlsson");
 /*
 * TEST 8
 */
@@ -107,7 +102,10 @@ test7("Greta", "Karlsson");
 //(se länktips i handledningen)
 function test8(words) {
 	
-	// Din kod skrivs här
+	var txt = words;
+	var string = txt.indexOf(" "); 
+	var halfstring = txt.substring(string, txt.length-1);
+	return halfstring;// Din kod skrivs här
 }
 
 /*
@@ -117,6 +115,16 @@ function test8(words) {
 // annars ska en boolean false resturneras
 function test9(number) {
 	
+	var num = number;
+	var sann = true;
+	var osann = false;
+	if (num >= 100);
+	{return sann;
+	}
+	
+	else
+		{return osann;
+		}
 	// Din kod skrivs här
 }
 
@@ -131,6 +139,24 @@ function test9(number) {
 
 function test10(epost, namn) {
 	
+	var mail = epost;
+	var name = namn;
+	var tom = "Du har glömt att ange namn eller e-post";
+	var at = "Ange en e-postadress";
+	var send = "Ditt meddelande skickas";
+	if (mail = "" || name = "");
+	{
+		return tom;
+	}
+	if(mail.indexOf(@)>0);
+	{
+		return send;
+	}
+	else
+		{return at;
+			}
+
+
 	// Din kod skrivs här
 }
 
@@ -144,10 +170,14 @@ function test10(epost, namn) {
 //(se länktips i handledningen)
 function test11(arr) {
 	
-	// Din kod skrivs här
+	var thearray = arr;
+	var arr_lenght = thearray.length;
+	var middle = arr_length/2
+	var middleuse = MathRound(middle);// Din kod skrivs här
+	var middlei = arr[middleuse];
+
+		return middleuse;
 }
-
-
 /*
 * TEST 12
 */
@@ -157,6 +187,14 @@ function test11(arr) {
 // Använd en for-loop för att lösa problemet
 function test12(arr) {
 	
+	var thearray = arr
+	var arr_length = thearray.length;
+	var total = 0
+	var medel = total/arr_length;
+	for(var i=arr_length-1; i=>0; i--)
+	{total + =thearray [i];
+	}
+	return medel;
 	// Din kod skrivs här
 	
 }
