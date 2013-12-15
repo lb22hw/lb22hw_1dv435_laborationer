@@ -104,7 +104,7 @@ function test8(words) {
 	
 	var txt = words;
 	var string = txt.indexOf(" "); 
-	var halfstring = txt.substring(string, txt.length-1);
+	var halfstring = txt.substring(string+1, txt.length-1);
 	return halfstring;// Din kod skrivs här
 }
 
@@ -139,7 +139,6 @@ function test9(number) {
 
 function test10(epost, namn) {
 	
-	var mail = epost;
 	var name = namn;
 	var tom = "Du har glömt att ange namn eller e-post";
 	var at = "Ange en e-postadress";
@@ -153,8 +152,9 @@ function test10(epost, namn) {
 		return send;
 	}
 	else
-		{return at;
-			}
+		{
+			return at;
+		}
 
 
 	// Din kod skrivs här
@@ -175,8 +175,7 @@ function test11(arr) {
 	var middle = arr_length/2
 	var middleuse = MathRound(middle);// Din kod skrivs här
 	var middlei = arr[middleuse];
-
-		return middleuse;
+	return middlei;
 }
 /*
 * TEST 12
@@ -190,12 +189,12 @@ function test12(arr) {
 	var thearray = arr
 	var arr_length = thearray.length;
 	var total = 0
-	var medel = total/arr_length;
 	for(var i=arr_length-1; i=>0; i--)
 	{total + =thearray [i];
 	}
+	var medel = total/arr_length;
 	return medel;
-	// Din kod skrivs här
+	 Din kod skrivs här
 	
 }
 
