@@ -125,6 +125,7 @@ time, mark, audio, video {
 	}
 	#nav li a.meny5{
 		background-position:300px 0;
+	}
 	/*slut meny*/	
 	#content{
 		width: 600px;
@@ -213,6 +214,10 @@ time, mark, audio, video {
 		color: #000;
 		background-color:#DEF258;
 		text-decoration: none;
+	}
+	.hide { display: none;
+	}
+	.show { display: block; 
 	}	
 	#form {
 		margin-top: 20px;

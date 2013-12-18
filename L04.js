@@ -104,7 +104,7 @@ function test8(words) {
 	
 	var txt = words;
 	var string = txt.indexOf(" "); 
-	var halfstring = txt.substring(string+1, txt.length-1);
+	var halfstring = txt.substring(string+1, txt.length);
 	return halfstring;// Din kod skrivs här
 }
 
@@ -118,12 +118,13 @@ function test9(number) {
 	var num = number;
 	var sann = true;
 	var osann = false;
-	if (num >= 100);
-	{return sann;
+	if (num >= 100)
+	{
+		return sann;
 	}
-	
 	else
-		{return osann;
+		{
+			return osann;
 		}
 	// Din kod skrivs här
 }
@@ -140,20 +141,21 @@ function test9(number) {
 function test10(epost, namn) {
 	
 	var name = namn;
+	var mail = epost;
 	var tom = "Du har glömt att ange namn eller e-post";
 	var at = "Ange en e-postadress";
 	var send = "Ditt meddelande skickas";
-	if (mail = "" || name = "");
+	if (mail === "" || name === "")
 	{
 		return tom;
 	}
-	if(mail.indexOf(@)>0);
+	if (mail.indexOf("@") >= 0)
 	{
-		return send;
+		return at;
 	}
 	else
 		{
-			return at;
+			return send;
 		}
 
 
@@ -170,12 +172,12 @@ function test10(epost, namn) {
 //(se länktips i handledningen)
 function test11(arr) {
 	
-	var thearray = arr;
-	var arr_lenght = thearray.length;
-	var middle = arr_length/2
-	var middleuse = MathRound(middle);// Din kod skrivs här
-	var middlei = arr[middleuse];
-	return middlei;
+	//var arr_length = arr.length;
+	//var middle = arr_length / 2;
+	//var middleuse = Math.round (middle);// Din kod skrivs här
+	//var middlei = arr[middleuse];
+	//return middlei;
+ 
 }
 /*
 * TEST 12
@@ -186,15 +188,15 @@ function test11(arr) {
 // Använd en for-loop för att lösa problemet
 function test12(arr) {
 	
-	var thearray = arr
-	var arr_length = thearray.length;
-	var total = 0
-	for(var i=arr_length-1; i=>0; i--)
-	{total + =thearray [i];
+	var arr_length = arr.length;
+	var total = 0;
+	for (var i = 0; i <= arr_length-1; i++)
+	{
+	 total+= arr[i];
 	}
 	var medel = total/arr_length;
 	return medel;
-	 Din kod skrivs här
+	// Din kod skrivs här
 	
 }
 
