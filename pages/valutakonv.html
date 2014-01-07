@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+ 
+ <head>
+	<meta charset="utf-8"/>
+	<title>Valutakonverterare</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" media="print" href="../css/print.css"/>
+    <link rel="icon" href="../css/pics/minisign.png" type="image/minisign"/>
+</head>
+<body>
+    <div id="container">
+    <div id="header">
+        <img src="../css/pics/sign.png" alt="Min signatur"/>
+        <h1>Charlottas sajt
+        </h1>
+    </div>
+    <div id="nav">
+     	<ul>
+            <li><a href="../index.html" class="meny1">Startsida</a></li>
+            <li><a href="laborationer.html" class="meny2">Laborationer</a></li>
+            <li><a href="presentation.html" class="meny3">Presentation</a></li>
+            <li><a href="kontakt.html" class="meny4">Kontakt</a></li>
+             <li><a href="valutakonv.html" class="meny5 active">Valutakonverterare</a></li>  
+        </ul>
+    </div> 
+    <div id="content">
+        <form>
+            <fieldset>    
+            <legend>Valutakonverterare</legend>
+                <h3>Fyll i antal kronor du vill konvertera</h3>
+                <p>
+                <label for="sek">Antal svenska kronor</label>
+                <input type="text" id="sek" name="sek" />
+                </p>
+                <p>
+                <a href="#" class="button">Omvandla</a>
+                </p>
+               
+            </fieldset>
+        </form>
+    </div>
+    <div class="inputsek">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Antal kronor</td>
+                            <td>Euro</td>
+                            <td>Dollar</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+    </div>
+
+
+     <div id="footer">
+        <p>Ansvarig för denna sida är Charlotta Bentzen</p>
+        <p>Sidan är validerad </p>
+    </div>
+    </div>
+    <script type="text/javascript" src="L05.js">
+    </script>
+</body> 
+</html>

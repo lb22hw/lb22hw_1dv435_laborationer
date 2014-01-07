@@ -1,4 +1,4 @@
-/** EXTRAUPPGIFTER **/
+// EXTRAUPPGIFTER 
 
 // Du får en array som parameter
 // Din uppgift blir att vända på arrayen och returnera den
@@ -39,16 +39,17 @@ function test_extra_2(words) {
 // För att lösa denna uppgift kan du behöva nästla två for-loopar dvs. lägga en for-loop i en annan
 function drawTable(rows, cols) {
 	document.write("<table border='1'>");
-	//var row = rows;
-   // var column = cols;
-   // for(var i=0; i<=row; i++):
-   // {
-        // var rader = table.insertRow(row);
-        // document.write(rader); 
-    
-       // for(var i=0; i<=column; i++);
-       // {
-       //  var celler = table.insertCell(cols);
+	   var row = rows;
+     var column = cols;
+     for(var i=0; i<=row; i++)
+      {
+        
+      }
+        for(var i=0; i<=column; i++)
+        {
+
+
+         }
        //  document.write(celler);
 
     

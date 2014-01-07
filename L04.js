@@ -145,11 +145,11 @@ function test10(epost, namn) {
 	var tom = "Du har glömt att ange namn eller e-post";
 	var at = "Ange en e-postadress";
 	var send = "Ditt meddelande skickas";
-	if (mail === "" || name === "")
+	if (mail.length === 0 || name.length === 0)
 	{
 		return tom;
 	}
-	if (mail.indexOf("@") >= 0)
+	else if (mail.indexOf("@") < 0)
 	{
 		return at;
 	}
@@ -172,11 +172,11 @@ function test10(epost, namn) {
 //(se länktips i handledningen)
 function test11(arr) {
 	
-	//var arr_length = arr.length;
-	//var middle = arr_length / 2;
-	//var middleuse = Math.round (middle);// Din kod skrivs här
-	//var middlei = arr[middleuse];
-	//return middlei;
+	var arr_length = arr.length;
+	var middle = arr_length / 2;
+	var middleuse = Math.round (middle);// Din kod skrivs här
+	var middlei = arr[middleuse-1];
+	return middlei;
  
 }
 /*

@@ -58,8 +58,8 @@ time, mark, audio, video {
 	#header h1{
 		float:right;
 		margin-top: 60px; margin-right: 60px;
-
 	}
+	
 	#nav {
 		width: 300px;
 		float:left;
@@ -178,7 +178,9 @@ time, mark, audio, video {
 	}
 	#leftside{
 		width: 450px;
+		float:left;
 	}
+
 	#foto{
 		width: 300px;
 		margin-left: 150px;
@@ -193,13 +195,7 @@ time, mark, audio, video {
 		border: thin solid; color:#525E36;
 		background-color:#EDFA97;
 	}
-	/* Färger 	container,nav #F4FACC 
-				header #DEF258 
-				nav,content #F2FABF
-				content #F6FCCD
-				footer #868F4B
-				/*table td #EDFA97 */
-
+	
 	
 	#labli ul{
 		width: 200px;
@@ -228,6 +224,7 @@ time, mark, audio, video {
 	#footer{
 		width:870px;
 		padding:15px;
+		margin-top: 40px;
 	}
 	.knapp{
 	border: 1px solid  #89B12B ; 
@@ -242,10 +239,19 @@ time, mark, audio, video {
 	background-repeat: no-repeat;
 	background-position: top left;
 	text-indent: 30px; 
-
-	
-	
 	}
+	.button{
+	border: 1px solid  #89B12B ; 
+	font-size: 20px;
+	background-color:#DEF258; 
+	font-weight: bold;
+	font-family: 'Cutive Mono', serif; 
+	float: right;
+	background-image: url(pics/euro.png); 
+	background-repeat: no-repeat;
+	background-position: 10px 3px;
+	text-indent: 50px;
+	} 
 	#radiobuttons {
 		margin-bottom: 20px;
 	}
@@ -273,5 +279,54 @@ time, mark, audio, video {
 		margin: 15px;
 		border:3px solid #748942;
 	}
-	
-	
+	legend{
+		font-family:'Fresca', sans-serif;      
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+	label {
+		font-family: 'Fresca', sans-serif;
+		vertical-align: bottom;
+		display: block;
+		margin:0 3%;
+		font-size: 16px;
+}
+	input {
+		height: 22px;
+		margin-bottom: 5px;
+		margin-left: 2%;
+		display: block;
+		font-family: 'Fresca', sans-serif;
+		font-size: 16px;
+}
+table {
+	margin: auto;
+	width: 400px;
+}
+tr {
+	background-color: #F5EE6D;
+	border-bottom: 1px solid #000;
+}
+td {
+	overflow: auto;
+	padding-left: 2%;
+	margin-left: 2%;
+}
+thead tr {
+	background-color: #DEF258;
+	font-family: 'Fresca', sans-serif;
+	font-size: 20px;
+	border: 1px solid #89B12B;
+
+}
+.inputsek td{
+	width: 150px;
+}
+.empty {
+	background-color:;
+}
+
+.correct {
+	background-color:;
+}
+
