@@ -212,8 +212,6 @@ time, mark, audio, video {
 		text-decoration: none;
 	}
 	.hide { display: none;
-	}
-	.show { display: block; 
 	}	
 	#form {
 		margin-top: 20px;
