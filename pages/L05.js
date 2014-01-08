@@ -1,27 +1,26 @@
-alert("hej");
+
 
 
 //Valutakonverterare
 var count = 0
-var sek = document.querySelector=("#sek");
+var sek = document.querySelector("#sek");
 function validateInput(){
-if(sek.value.length > 0){
+	if(sek.value.length > 0){
 		sek.className = "correct";
 	} 
 	else {
 		sek.className = "empty";
 	}
-	if (document.querySelector("empty")) {
+	if (document.querySelector(".empty")) {
 		
 		alert("Var vänlig fyll i antal kronor i siffror");
 	} 
 	else {
-		function convert(sek){
-			var euro = (sek * 9,84);
-			var dollar = (sek * 6,54);
-			addMoney(euro.value, dollar.value);
-		}
+			var euro = (sek.value / 9.84);
+			var dollar = (sek.value / 6.54);
+			addMoney(sek.value, euro, dollar);
 	}
+}
 		function addMoney(sek, euro, dollar) {
 			var table = document.querySelector("#tbody");
 			var tr = document.createElement("tr");
@@ -31,8 +30,8 @@ if(sek.value.length > 0){
 			
 			
 			var sekTextNode = document.createTextNode(sek);
-			var euroTextNode = document.createTextNode(euro);
-			var dollarTextNode = document.createTextNode(dollar);
+			var euroTextNode = document.createTextNode(euro.toFixed(2));
+			var dollarTextNode = document.createTextNode(dollar.toFixed(2));
 			sekTd.appendChild(sekTextNode);
 			tr.appendChild(sekTd);
 			euroTd.appendChild(euroTextNode);

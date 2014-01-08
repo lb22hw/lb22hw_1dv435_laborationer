@@ -211,8 +211,13 @@ time, mark, audio, video {
 		background-color:#DEF258;
 		text-decoration: none;
 	}
-	.hide { display: none;
+	.hide { 
+		display: none;
 	}	
+	/*#lab1{
+		float: left;
+			
+	}*/	
 	#form {
 		margin-top: 20px;
 	}
@@ -300,6 +305,7 @@ time, mark, audio, video {
 table {
 	margin: auto;
 	width: 400px;
+	float:left;
 }
 tr {
 	background-color: #F5EE6D;
